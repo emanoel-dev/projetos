@@ -1,0 +1,135 @@
+@import url('/projeto-site/base.css');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    margin: 20px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+}
+.menu ul li {
+    padding: 15px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff0;
+}
+.logo {
+    background-image: url('/projeto-site/imagens/logo.jpg');
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin: 15% 0 10% 0;
+    text-align: center;
+}
+.container .slogan {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    border-right: 2px solid #000000;
+}
+.botao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.botao button {
+    outline: none;
+    border: 2px solid rgb(195 132 25);
+    background-color: #FFF;
+    border-radius: 50px;
+    color: rgb(195 132 25);
+    width: 10rem;
+    height: 3rem;
+    margin: 3px;
+    cursor: pointer;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+section h3 {
+    text-align: center;
+}
+section p {
+    width: 100%;
+    max-width: 800px;
+    text-align: justify;
+}
+section .text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    margin: 10px;
+}
+section img {
+    width: 100%;
+    max-width: 440px;
+    height: 200px;
+}
+.contato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(195 132 25);
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #FFF;
+    min-height: 300px;
+    width: 100%;
+    border-bottom: 5px solid rgb(167 114 25);
+}
+.contato span {
+    margin-left: 8rem;
+}
+.contato ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+.contato ul h3 {
+    text-align: center;
+}
+.contato ul li {
+    padding: 5px;
+}
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 24px;
+    text-align: center;
+}
