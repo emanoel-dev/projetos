@@ -1,4 +1,4 @@
-@import url('/projeto-site/base.css');
+@import url('/site-vereador/base.css');
 html {
     scroll-behavior: smooth;
 }
@@ -16,7 +16,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     position: fixed;
-    margin: 20px;
+    padding: 2rem;
 }
 .menu ul {
     display: flex;
@@ -110,7 +110,10 @@ section img {
     border-bottom: 5px solid rgb(167 114 25);
 }
 .contato span {
-    margin-left: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .contato ul {
     list-style: none;
